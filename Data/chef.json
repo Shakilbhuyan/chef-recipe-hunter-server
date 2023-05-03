@@ -1,0 +1,62 @@
+[
+    {
+      "id": "001",
+      "chef_name": "Gordon Ramsay",
+      "years_of_experience": 30,
+      "num_of_recipes": 100,
+      "list_of_recipes": ["Beef Wellington", "Shepherd's Pie", "Fish and Chips"],
+      "likes": 50000,
+      "short_bio": "Gordon Ramsay is a world-renowned chef with over 30 years of experience in the culinary industry. He is known for his fiery personality and his ability to turn even the most basic ingredients into a gourmet meal.",
+      "photo_url": "https://ibb.co/thVhhj1"
+    },
+    {
+      "id": "002",
+      "chef_name": "Ina Garten",
+      "years_of_experience": 20,
+      "num_of_recipes": 50,
+      "list_of_recipes": ["Lobster Mac and Cheese", "Roast Chicken", "Chocolate Cake"],
+      "likes": 25000,
+      "short_bio": "Ina Garten is an American chef and cookbook author. She is known for her simple yet elegant approach to cooking and her use of fresh, high-quality ingredients.",
+      "photo_url": "https://ibb.co/WGkTYXB"
+    },
+    {
+      "id": "003",
+      "chef_name": "Jamie Oliver",
+      "years_of_experience": 25,
+      "num_of_recipes": 75,
+      "list_of_recipes": ["Pesto Pasta", "Roast Beef", "Sticky Toffee Pudding"],
+      "likes": 35000,
+      "short_bio": "Jamie Oliver is a British chef and television personality. He is known for his approachable style of cooking and his commitment to promoting healthy eating.",
+      "photo_url": "https://ibb.co/DDkCY68"
+    },
+    {
+      "id": "004",
+      "chef_name": "Nigella Lawson",
+      "years_of_experience": 15,
+      "num_of_recipes": 40,
+      "list_of_recipes": ["Spaghetti Carbonara", "Lemon Drizzle Cake", "Beef Stew"],
+      "likes": 20000,
+      "short_bio": "Nigella Lawson is an English food writer and television personality. She is known for her indulgent recipes and her love of comfort food.",
+      "photo_url": "https://ibb.co/WGkTYXB"
+    },
+    {
+      "id": "005",
+      "chef_name": "Anthony Bourdain",
+      "years_of_experience": 20,
+      "num_of_recipes": 30,
+      "list_of_recipes": ["Banh Mi", "Pho", "Cacio e Pepe"],
+      "likes": 15000,
+      "short_bio": "Anthony Bourdain was an American chef, author, and television personality. He was known for his adventurous spirit and his willingness to try any food, no matter how unusual or exotic.",
+      "photo_url": "https://ibb.co/thVhhj1"
+    },
+    {
+      "id": "006",
+      "chef_name": "Samin Nosrat",
+      "years_of_experience": 10,
+      "num_of_recipes": 20,
+      "list_of_recipes": ["Buttermilk Roast Chicken", "Pesto", "Tiramisu"],
+      "likes": 10000,
+      "short_bio": "Samin Nosrat is an American chef, author, and television personality.",
+      "photo_url": "https://ibb.co/WGkTYXB"
+      }]
+  
