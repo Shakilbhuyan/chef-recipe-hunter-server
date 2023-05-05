@@ -4,7 +4,24 @@
       "chef_name": "Gordon Ramsay",
       "years_of_experience": 30,
       "num_of_recipes": 100,
-      "list_of_recipes": ["Beef Wellington", "Shepherd's Pie", "Fish and Chips"],
+      "list_of_recipes": {"Beef_Wellington":{
+        "recipe": "Beef Wellington",
+        "ingredients":"3 lb beef roast,1 tbsp olive oil,1 tsp salt",
+        "cooking_method":" Preheat oven to 375°F. Rub olive oil and salt on beef roast. Roast beef in oven for 1.5-2 hours or until internal temperature reaches desired doneness.",
+        "rating": 4.5
+      },
+       "Shepherd's_Pie":{
+        "recipe": "Sherpherds pie",
+        "ingredients":"1 cup pitted dates,1 cup boiling water,1 tsp baking soda",
+        "cooking_method":"1. Preheat oven to 350°F.2. Blend dates, boiling water, and baking soda until smooth.3. Pour mixture into greased baking dish and bake for 25-30 minutes.",
+        "rating": 4
+       }, 
+       "Fish_and_Chips":{
+        "recipe": "Fish and Pie",
+        "ingredients":"1 lb spaghetti,4 slices bacon,3 eggs",
+        "cooking_method":"1. Cook spaghetti according to package instructions.2. Cook bacon in a skillet until crispy, then remove and crumble.3. Beat eggs in a bowl and mix with spaghetti, bacon, and a little bit of pasta water.",
+        "rating": 4.2
+       }},
       "likes": 50000,
       "short_bio": "Gordon Ramsay is a world-renowned chef with over 30 years of experience in the culinary industry. He is known for his fiery personality and his ability to turn even the most basic ingredients into a gourmet meal.",
       "photo_url": "https://i.ibb.co/mBfBBZP/portrait-smiling-chef-uniform.jpg"
@@ -14,7 +31,24 @@
       "chef_name": "Ina Garten",
       "years_of_experience": 20,
       "num_of_recipes": 50,
-      "list_of_recipes": ["Lobster Mac and Cheese", "Roast Chicken", "Chocolate Cake"],
+      "list_of_recipes":{"Lobster_Mac_and_Cheese":{
+        "recipe": "Lobster mac and cheese",
+        "ingredients":"3 lb Lobster roast,1 tbsp olive oil,1 tsp salt",
+        "cooking_method":" Preheat oven to 375°F. Rub olive oil and salt on beef roast. Roast beef in oven for 1.5-2 hours or until internal temperature reaches desired doneness.",
+        "rating": 4.5
+      },
+       "Roast_Chicken":{
+        "recipe": "Roasted Chicken",
+        "ingredients":"1 lb stew chicken.3 carrots, peeled and chopped.2 potatoes, peeled and chopped",
+        "cooking_method":"1. Brown stew beef in a large pot or Dutch oven.2. Add in chopped carrots, potatoes, and enough water or broth to cover.3. Simmer for 1-2 hours, or until beef and vegetables are tender.",
+        "rating": 4.3
+      }, 
+      "Chocolate_Cake":{
+        "recipe": "Chocolate Cake",
+        "ingredients":"1/2 cups all-purpose flour.2 tsp baking powder,3/4 cup granulated sugar",
+        "cooking_method":"1. Preheat oven to 350°F.2. Mix together flour, baking powder, and sugar in a bowl,3. Add in eggs, lemon juice, and zest, and mix until smooth. Pour into greased baking dish and bake for 30-35 minutes.",
+        "rating": 4.7
+      }},
       "likes": 25000,
       "short_bio": "Ina Garten is an American chef and cookbook author. She is known for her simple yet elegant approach to cooking and her use of fresh, high-quality ingredients.",
       "photo_url": "https://i.ibb.co/ck6m792/confident-young-female-cook-wearing-chef-uniform-holding-frying-pan-crossing-hands-isolated-white-wa.jpg"
@@ -24,7 +58,25 @@
       "chef_name": "Jamie Oliver",
       "years_of_experience": 25,
       "num_of_recipes": 75,
-      "list_of_recipes": ["Pesto Pasta", "Roast Beef", "Sticky Toffee Pudding"],
+      "list_of_recipes":
+       {"Pesto_Pasta":{
+        "recipe": "Pesto Pasta",
+        "ingredients":"1 cup pitted dates,1 cup boiling water,1 tsp baking soda",
+        "cooking_method":"1. Preheat oven to 350°F.2. Blend dates, boiling water, and baking soda until smooth.3. Pour mixture into greased baking dish and bake for 25-30 minutes.",
+        "rating": 4
+      },
+       "Roast_Beef":{
+        "recipe": "Roasted Beef",
+        "ingredients":"1 lb stew beef.3 carrots, peeled and chopped.2 potatoes, peeled and chopped",
+        "cooking_method":"1. Brown stew beef in a large pot or Dutch oven.2. Add in chopped carrots, potatoes, and enough water or broth to cover.3. Simmer for 1-2 hours, or until beef and vegetables are tender.",
+        "rating": 4.3
+      },
+       "Sticky_Toffee_Pudding":{
+        "recipe": "Sticky Pudding",
+        "ingredients":"1/2 cups all-purpose flour.2 tsp baking powder,3/4 cup granulated sugar",
+        "cooking_method":"1. Preheat oven to 350°F.2. Mix together flour, baking powder, and sugar in a bowl,3. Add in eggs, lemon juice, and zest, and mix until smooth. Pour into greased baking dish and bake for 30-35 minutes.",
+        "rating": 4.7
+      }},
       "likes": 35000,
       "short_bio": "Jamie Oliver is a British chef and television personality. He is known for his approachable style of cooking and his commitment to promoting healthy eating.",
       "photo_url": "https://i.ibb.co/ck6m792/confident-young-female-cook-wearing-chef-uniform-holding-frying-pan-crossing-hands-isolated-white-wa.jpg"
@@ -34,7 +86,24 @@
       "chef_name": "Nigella Lawson",
       "years_of_experience": 15,
       "num_of_recipes": 40,
-      "list_of_recipes": ["Spaghetti Carbonara", "Lemon Drizzle Cake", "Beef Stew"],
+      "list_of_recipes": {"Spaghetti_Carbonara":{
+        "recipe": "Spaghetti Carbonara",
+        "ingredients":"1 lb spaghetti,4 slices bacon,3 eggs",
+        "cooking_method":"1. Cook spaghetti according to package instructions.2. Cook bacon in a skillet until crispy, then remove and crumble.3. Beat eggs in a bowl and mix with spaghetti, bacon, and a little bit of pasta water.",
+        "rating": 4.2
+      },
+       "Lemon_Drizzle_Cake":{
+        "recipe": "Lemon Drixxle cake",
+        "ingredients":"1/2 cups all-purpose flour.2 tsp baking powder,3/4 cup granulated sugar",
+        "cooking_method":"1. Preheat oven to 350°F.2. Mix together flour, baking powder, and sugar in a bowl,3. Add in eggs, lemon juice, and zest, and mix until smooth. Pour into greased baking dish and bake for 30-35 minutes.",
+        "rating": 4.7
+       },
+        "Beef_Stew":{
+          "recipe": " Beef Stew",
+          "ingredients":"1 lb stew beef.3 carrots, peeled and chopped.2 potatoes, peeled and chopped",
+          "cooking_method":"1. Brown stew beef in a large pot or Dutch oven.2. Add in chopped carrots, potatoes, and enough water or broth to cover.3. Simmer for 1-2 hours, or until beef and vegetables are tender.",
+          "rating": 4.3
+        }},
       "likes": 20000,
       "short_bio": "Nigella Lawson is an English food writer and television personality. She is known for her indulgent recipes and her love of comfort food.",
       "photo_url": "https://i.ibb.co/ck6m792/confident-young-female-cook-wearing-chef-uniform-holding-frying-pan-crossing-hands-isolated-white-wa.jpg"
@@ -44,7 +113,24 @@
       "chef_name": "Anthony Bourdain",
       "years_of_experience": 20,
       "num_of_recipes": 30,
-      "list_of_recipes": ["Banh Mi", "Pho", "Cacio e Pepe"],
+      "list_of_recipes": {"Banh_Mi":{
+        "recipe": "Banh Mi",
+        "ingredients":"1 baguette,4 oz grilled pork,2 tbsp mayonnaise",
+        "cooking_method":"1. Slice baguette and spread mayonnaise on one side.2. Add grilled pork, pickled vegetables, and cilantro to the sandwich.3. Serve immediately and enjoy!",
+        "rating": 4.8
+      }, 
+      "Pho":{
+        "recipe": "Sherpherds pie",
+        "ingredients":"1 cup pitted dates,1 cup boiling water,1 tsp baking soda",
+        "cooking_method":"1. Preheat oven to 350°F.2. Blend dates, boiling water, and baking soda until smooth.3. Pour mixture into greased baking dish and bake for 25-30 minutes.",
+        "rating": 4
+      },
+       "Cacio_e_Pepe":{
+        "recipe": "Lemon Drixxle cake",
+        "ingredients":"1/2 cups all-purpose flour.2 tsp baking powder,3/4 cup granulated sugar",
+        "cooking_method":"1. Preheat oven to 350°F.2. Mix together flour, baking powder, and sugar in a bowl,3. Add in eggs, lemon juice, and zest, and mix until smooth. Pour into greased baking dish and bake for 30-35 minutes.",
+        "rating": 4.7
+       }},
       "likes": 15000,
       "short_bio": "Anthony Bourdain was an American chef, author, and television personality. He was known for his adventurous spirit and his willingness to try any food, no matter how unusual or exotic.",
       "photo_url": "https://i.ibb.co/ck6m792/confident-young-female-cook-wearing-chef-uniform-holding-frying-pan-crossing-hands-isolated-white-wa.jpg"
@@ -54,7 +140,25 @@
       "chef_name": "Samin Nosrat",
       "years_of_experience": 10,
       "num_of_recipes": 20,
-      "list_of_recipes": ["Buttermilk Roast Chicken", "Pesto", "Tiramisu"],
+      "list_of_recipes":
+      { "Buttermilk_Roast_Chicken":{
+        "recipe": "Roasted Chicken",
+        "ingredients":"1 lb stew chicken.3 carrots, peeled and chopped.2 potatoes, peeled and chopped",
+        "cooking_method":"1. Brown stew beef in a large pot or Dutch oven.2. Add in chopped carrots, potatoes, and enough water or broth to cover.3. Simmer for 1-2 hours, or until beef and vegetables are tender.",
+        "rating": 4.3
+      }, 
+      "Pesto":{
+        "recipe": "pesto",
+        "ingredients":"1 baguette,4 oz grilled pork,2 tbsp mayonnaise",
+        "cooking_method":"1. Slice baguette and spread mayonnaise on one side.2. Add grilled pork, pickled vegetables, and cilantro to the sandwich.3. Serve immediately and enjoy!",
+        "rating": 4.8
+      }, 
+      "Tiramisu":{
+        "recipe": "Triramisu",
+        "ingredients":"1 baguette,4 oz grilled pork,2 tbsp mayonnaise",
+        "cooking_method":"1. Slice baguette and spread mayonnaise on one side.2. Add grilled pork, pickled vegetables, and cilantro to the sandwich.3. Serve immediately and enjoy!",
+        "rating": 4.8
+      }},
       "likes": 10000,
       "short_bio": "Samin Nosrat is an American chef, author, and television personality.",
       "photo_url": "https://i.ibb.co/ck6m792/confident-young-female-cook-wearing-chef-uniform-holding-frying-pan-crossing-hands-isolated-white-wa.jpg"
